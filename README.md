@@ -1,6 +1,31 @@
 # TheLittleThingsPlayground
 Playground for experimenting with new Xamarin.Forms features.
 
+## ThreeFive (Xamarin.Forms 3.5.0)
+
+[Release Notes](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/release-notes/3.5/3.5.0)
+
+* BindableLayout
+* ListView ScrollBarVisibility
+* SwitchCell OnColor
+* ToolbarItem, MasterDetailPage, NavigationPage a11y
+
+## ThreeFour (Xamarin.Forms 3.4.0)
+
+[Release Notes](https://developer.xamarin.com/releases/xamarin-forms/xamarin-forms-3.4/3.4.0/)
+
+* ImageButton
+
+## ThreeThree (Xamarin.Forms 3.3.0)
+
+[Release Notes](https://developer.xamarin.com/releases/xamarin-forms/xamarin-forms-3.3/3.3.0/)
+
+* Label & Span Text Decorations: Underline and Strikethrough
+* Label MaxLines
+* [iOS] Modal Presentation Model
+* [iOS] WebView now uses WKWebView
+
+
 ## ThreeTwo (Xamarin.Forms 3.2.0)
 
 [Release Notes](https://developer.xamarin.com/releases/xamarin-forms/xamarin-forms-3.2/3.2.0/)

@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace TheLittleThingsPlayground.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class LoginPage : ContentPage
+	public partial class MasterPageLayout : ContentPage
 	{
-		public LoginPage ()
+		public MasterPageLayout ()
 		{
 			InitializeComponent ();
 		}
-
-        private void Button_Clicked(object sender, EventArgs e)
-        {
-            App.Current.MainPage = new MainPage();
-        }
-    }
+	}
 }

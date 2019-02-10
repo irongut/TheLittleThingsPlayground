@@ -132,6 +132,24 @@
     <BundleResource Include="Resources\iconXamagon.png" />
     <BundleResource Include="Resources\iconXamagon%402x.png" />
     <BundleResource Include="Resources\iconXamagon%403x.png" />
+    <BundleResource Include="Resources\3bar%402x.png" />
+    <BundleResource Include="Resources\3bar.png" />
+    <BundleResource Include="Resources\FabMDL2.ttf" />
+    <BundleResource Include="Resources\iconReleaseNotes.png" />
+    <BundleResource Include="Resources\iconReleaseNotes%402x.png" />
+    <BundleResource Include="Resources\iconReleaseNotes%403x.png" />
+    <BundleResource Include="Resources\iconXaml.png" />
+    <BundleResource Include="Resources\iconXaml%402x.png" />
+    <BundleResource Include="Resources\iconXaml%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Media.xcassets\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Media.xcassets\Image.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Media.xcassets\Image.imageset\First.pdf">
+      <Visible>false</Visible>
+    </ImageAsset>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -141,7 +159,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms">
-      <Version>3.2.0.839982</Version>
+      <Version>3.5.0.129452</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
@@ -150,5 +168,8 @@
       <Project>{4E1B7C52-4984-44CE-98AF-25CD7A9FB3ED}</Project>
       <Name>TheLittleThingsPlayground</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\xamagon.png" />
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TheLittleThingsPlayground.App">
     <Application.Resources>
         <ResourceDictionary>
@@ -7,6 +7,26 @@
             <Style TargetType="NavigationPage">
                 <Setter Property="BarBackgroundColor" Value="{StaticResource NavigationPrimary}" />
                 <Setter Property="BarTextColor" Value="White" />
+            </Style>
+
+            <ControlTemplate x:Key="MasterPage">
+                <ScrollView VerticalScrollBarVisibility="Always" 
+                HorizontalScrollBarVisibility="Never">
+                    <FlexLayout Margin="15" Direction="Column">
+                        <ContentPresenter />
+                    </FlexLayout>
+                </ScrollView>
+            </ControlTemplate>
+            
+            <Style x:Key="IconFont" TargetType="Label">  
+               <Setter Property="FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String" Default="Fabric MDL2 Assets">
+                            <On Platform="iOS" Value="Fabric MDL2 Assets"></On>
+                            <On Platform="Android" Value="FabMDL2.ttf#Fabric MDL2 Assets"></On>
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>
             </Style>
         </ResourceDictionary>
     </Application.Resources>
